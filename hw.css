@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7ba46a;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.container h1{
+    color: white;
+    font-size: 70px;
+    font-family: system-ui;
+    margin-bottom: 15%;
+}
+.container #button{
+    background-color: #21ade3;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: system-ui;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container #button:hover{
+    background-color: #006cb8;
+    transition: all 0.3s ease;
+}
+.container #button:active{
+    transform: scale(0.9);
+}
+.popUp{
+    background-color: white;
+    box-shadow: -0.5px 2px 5px 2px rgb(123, 122, 122);
+    border-radius: 10px;
+    width: 30%;
+    height: 650px;
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 300ms ease-in-out;
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    /* background-color: #ffd700; */
+}
+.popUp #btnToggle{
+    position: absolute;
+    top: -12px;
+    right: -17px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.popUp #btnToggle:active{
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
+.popUp .header{
+    width: 100%;
+    height: 90px;
+    background-color: #006cb8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 5px;
+}
+.header .content{
+    width: 80%;
+    height: 70px;
+    /* background-color: rebeccapurple; */
+    margin: auto;
+}
+.content .logo{
+    width: 15%;
+    height: 100%;
+    margin-right: 15px;
+    /* background-color: aqua; */
+    float: left;
+}
+.content .logo img{
+    height: 100%;
+}
+.content .txt{
+    width: 80.7%;
+    height: 100%;
+    /* background-color: #555; */
+    float: left;
+}
+.content h1{
+    font-family: "Moul", serif;
+    font-weight: 100;
+    font-size: 17.6px;
+    color: #ffd700;
+}
+.content h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15.4px;
+    line-height: 10px;
+    color: #ffd700;
+}
+.content h3{
+    font-family: "Koulen";
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 30px;
+    color: #ffd700;
+}
+h5{
+    margin-top: 15px;
+    font-family: system-ui;
+    font-size: 18px;
+    color: #006cb8;
+    text-transform: uppercase;
+    text-align: center;
+}
+.userr{
+    margin: auto;
+    width: 30%;
+    height: 130px;
+    /* background-color: green; */
+}
+.userr .material-symbols-outlined{
+    color: #006cb8;
+    font-size: 138px;
+}
+.userForm{
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    /* background-color: #ffd700; */
+}
+.userForm input{
+    width: 100%;
+    margin: 5px auto;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #555;
+}
+.userForm input:focus{
+    outline: none;
+    border: 2px solid #006cb8;
+}
+p{
+    font-size: 10px;
+    text-align: right;
+}
+.userForm .btn2{
+    max-width: 100%;
+    /* background-color: #ffd700; */
+    margin: auto;
+    margin-top: 15px;
+}
+.userForm .login{
+    margin-top: 5px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #067acd;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.userForm .login:hover{
+    background-color: #006cb8;
+    transition: all 0.3s ease;
+}
+.btn{
+    min-width: 46.9%;
+    padding: 12px;
+    border: none;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(230, 3, 3);
+}
